@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Cost Calculator</title>
+</head>
+
+<body>
+
+  <h1>Pizza Cost Calculator</h1>
+  
+  <p>
+    Build a webpage where a user can:
+  </p>
+
+  <ul>
+    <li>Select a pizza size (Small, Medium, Large)</li>
+    <li>Select toppings using checkboxes</li>
+    <li>Click a button to calculate the total price</li>
+    <li>See the final total cost displayed on the page</li>
+  </ul>
+
+  <hr>
+
+  <h2>Requirements</h2>
+
+  <h3>1. Pizza Sizes</h3>
+  <p>Create a dropdown list (<b>&lt;select&gt;</b>) with these options:</p>
+
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Pizza Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Small</td>
+      <td>$8</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>$12</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h3>2. Toppings</h3>
+  <p>
+    Create at least <b>5 toppings</b> using checkboxes.
+    Each topping should cost <b>$2</b>.
+  </p>
+
+  <p><b>Example toppings:</b></p>
+  <ul>
+    <li>Cheese</li>
+    <li>Pepperoni</li>
+    <li>Mushrooms</li>
+    <li>Olives</li>
+    <li>Onions</li>
+  </ul>
+
+  <hr>
+
+  <h3>3. Use Arrays (Required)</h3>
+  <p>
+    In your JavaScript file (<b>script.js</b>), you must create an array like this:
+  </p>
+
+  <pre>
+let toppings = ["Cheese", "Pepperoni", "Mushrooms", "Olives", "Onions"];
+  </pre>
+
+  
+
+  <h3>4. Use a For Loop (Required)</h3>
+  <p>
+    You must use a <b>for loop</b> to check which toppings were selected.    
+  </p>
+
+  
+  <hr>
+
+  <h3>5. Calculate Total Price</h3>
+  <p>Your program should:</p>
+
+  <ol>
+    <li>Get the pizza size from the dropdown</li>
+    <li>Find the base price of the pizza</li>
+    <li>Add $2 for every topping selected</li>
+    <li>Display the final total</li>
+  </ol>
+
+  <p><b>Example:</b></p>
+  <ul>
+    <li>Medium Pizza = $10</li>
+    <li>3 toppings selected = 3 × $2 = $6</li>
+    <li>Total = $10 + $6 = $16</li>
+  </ul>
+
+  <hr>
+
+  <h3>6. Display Output</h3>
+  <p>
+    When the user clicks the "Calculate Total" button, display:
+  </p>
+
+  <ul>
+    <li>Selected pizza size</li>
+    <li>Selected toppings</li>
+    <li>Total price</li>
+  </ul> 
+
+</body>
+</html>
